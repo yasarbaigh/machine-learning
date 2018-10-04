@@ -1,5 +1,10 @@
 Need  python >= 3.4
 
+http://ubuntuhandbook.org/index.php/2017/07/install-python-3-6-1-in-ubuntu-16-04-lts/
+
+sudo apt-get install python3-tk
+
+
 installing-pip-on-windows
 https://dev.to/el_joft/installing-pip-on-windows
 
@@ -23,7 +28,6 @@ as\\setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace(
 stall --record C:\Users\kingpin\AppData\Local\Temp\pip-record-zr3wgopa\install-record.txt --single-version-externally-managed --compile --user --
 prefix=" failed with error code 1 in C:\Users\kingpin\AppData\Local\Temp\pip-install-no3caffv\pandas\
 
-D:\learnings\python>
 
 
 
