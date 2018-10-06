@@ -9,7 +9,7 @@ import seaborn as sns                  # For data visualization
 import matplotlib.pyplot as plt        # For plotting graphs
 #%matplotlib inline
 import warnings                        # To ignore any warnings
-#warnings.filterwarnings("ignore")
+warnings.filterwarnings("ignore")
 
 #Reading data
 train=pd.read_csv("dataset/train_u6lujuX_CVtuZ9i.csv")
@@ -42,6 +42,9 @@ print ('\n---------------------------\nTrain Loan in percentage is achieved by n
 print(train['Loan_Status'].value_counts(normalize=True))
 
 
+'''
+print('Independent Variable (Categorical)')
+
 plt.figure(1)
 plt.subplot(221)
 train['Gender'].value_counts(normalize=True).plot.bar(figsize=(20,10), title= 'Gender')
@@ -60,6 +63,9 @@ plt.show()
 
 
 
+
+print('Independent Variable (Ordinal)')
+
 plt.figure(1)
 plt.subplot(131)
 train['Dependents'].value_counts(normalize=True).plot.bar(figsize=(24,6), title= 'Dependents')
@@ -71,6 +77,71 @@ plt.subplot(133)
 train['Property_Area'].value_counts(normalize=True).plot.bar(title= 'Property_Area')
 
 plt.show()
+
+'''
+
+print('Distribution of ApplicantIncome plots')
+plt.figure(1)
+plt.subplot(121)
+sns.distplot(train['ApplicantIncome']);
+
+plt.subplot(122)
+train['ApplicantIncome'].plot.box(figsize=(16,5))
+
+plt.show()
+
+print('Distribution of ApplicantIncome by Education plots')
+
+train.boxplot(column='ApplicantIncome', by = 'Education')
+plt.suptitle("")
+plt.show()
+
+
+print('Distribution of Coapplicant income.')
+plt.figure(1)
+plt.subplot(121)
+sns.distplot(train['CoapplicantIncome']);
+
+plt.subplot(122)
+train['CoapplicantIncome'].plot.box(figsize=(16,5))
+
+plt.show()
+
+
+
+
+print(' Distribution of LoanAmount variable.')
+
+plt.figure(1)
+plt.subplot(121)
+df=train.dropna()
+sns.distplot(df['LoanAmount']);
+
+plt.subplot(122)
+train['LoanAmount'].plot.box(figsize=(16,5))
+
+plt.show()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
