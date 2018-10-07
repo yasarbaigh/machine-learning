@@ -41,7 +41,7 @@ print(train['Loan_Status'].value_counts())
 print ('\n---------------------------\nTrain Loan in percentage is achieved by normalize')
 print(train['Loan_Status'].value_counts(normalize=True))
 
-'''
+
 
 print('Visulaizing categorical variables (self-employed, graduate etc) vs target variable (loan approval status).')
 Gender=pd.crosstab(train['Gender'],train['Loan_Status'])
@@ -87,7 +87,7 @@ print('Numerical Independent Variable vs Target Variable')
 train.groupby('Loan_Status')['ApplicantIncome'].mean().plot.bar()
 plt.show()
 
-'''
+
 print('\n\n\n------------------------------------------')
 print('Categorizing income group into low, high medium to check loan approval')
 bins=[0,2500,4000,6000,81000]
