@@ -29,7 +29,11 @@ stall --record C:\Users\kingpin\AppData\Local\Temp\pip-record-zr3wgopa\install-r
 prefix=" failed with error code 1 in C:\Users\kingpin\AppData\Local\Temp\pip-install-no3caffv\pandas\
 
 
+-------------------------------------------------------------
 
+R install
+
+https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-16-04-2
 
 
 
