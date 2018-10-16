@@ -9,6 +9,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.model_selection import StratifiedKFold
 from sklearn import metrics
 
+
 import pandas as pd
 import numpy as np                     # For mathematical calculations
 import seaborn as sns                  # For data visualization
@@ -72,12 +73,12 @@ test=pd.get_dummies(test)
 
 
 
-print ('\n\n---------------------------')
-print('Model cross validation with StratifiedKFold of 5')
-
 
 i=1
 kf = StratifiedKFold(n_splits=5,random_state=1,shuffle=True)
+
+print ('\n\n---------------------------')
+print('Logistic Regression Model cross validation with StratifiedKFold of 5')
 
 # stratified k-fold cross validation with 5 folds.
 for train_index,test_index in kf.split(X,y):
@@ -94,6 +95,7 @@ for train_index,test_index in kf.split(X,y):
 
 pred_test = model.predict(test)
 pred=model.predict_proba(xvl)[:,1]
+
 
 
 
