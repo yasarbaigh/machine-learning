@@ -24,6 +24,32 @@ Steps in Analysing Data
 	b. replace with mean, mode, median values in missing-records
 	c. Building Prediction Model: We can even make a predictive model to impute missing data
 	
+5. Adding additional columns from the given data,
+		eg: from the start-year of a store, we can get total years of functioning/
+			classify the price-range-groups  on set of products dataset.
+			
+6.	Machine learning will produce better results on numerical values, rather than categorical values.
+	So categorical values can be replaced with 2 types of encodings
+	
+	a.	Label encoding: 
+			simply means converting each category in a variable to a number. It is more suitable for ordinal variables — categorical variables with some order.
+
+	b.	One hot encoding:
+			each category of a categorical variable is converted into a new binary column (1/0).
+
+			
+			
+----------------------------------------------
+7. 	Data Pre-Processing
+		pre-processing refers to the transformations applied to your data before feeding it to the algorithm. It invloves further cleaning of data, data transformation, data scaling and many more things.
+		
+		a.	removing skewness 
+		b.	Scaling numeric predictors
+		
+8. 	Corelation
+				
+			
+	
 	
 	
 	
