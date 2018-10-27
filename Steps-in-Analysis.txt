@@ -1,0 +1,32 @@
+Steps in Analysing Data
+
+1. Get dimensions and data-types of datasets
+2. Univariate Analysis, i.e exploring data with graphs
+
+	a.	visualize the continuous(numeric) variables using histograms and
+	b.	categorical variables using bar plots.
+	
+	eg. sales-count of electronic items (fridge, ac etc) its categorical
+		price-range-group of electronic items (1k-5k, 5-10k,10-30k etc) its numeric
+	
+3. 	Bivariate Analysis to find relation-ship between 2 variables
+	
+	a. scatter plots for continuous values	
+	b. violin plots for categorical values 
+		
+		
+		eg. 
+
+		
+4. Missing data adjustments, to predict more efficiently
+
+	a. deleting records of missing items
+	b. replace with mean, mode, median values in missing-records
+	c. Building Prediction Model: We can even make a predictive model to impute missing data
+	
+	
+	
+	
+	
+	
+	

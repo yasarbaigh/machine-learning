@@ -6,3 +6,10 @@ https://www.analyticsvidhya.com/blog/2016/02/bigmart-sales-solution-top-20/
 
 Solution in python
 https://discuss.analyticsvidhya.com/t/bigmart-baseline-solution-score-1598-python-codes/6990
+
+
+Hypothesis Generation
+	Store Level Hypotheses	
+	Product Level Hypotheses
+	Customer Level Hypotheses
+	Macro Level Hypotheses

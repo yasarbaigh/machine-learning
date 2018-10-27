@@ -1,0 +1,10 @@
+to Install any packages in R
+Launch R Console. Choose japan site, it worked well
+
+
+> install.packages("data.table")
+#installs above package based R's version
+
+> install.packages('caret', dependencies = TRUE)
+#Includes all dependencies
+
