@@ -1,0 +1,49 @@
+Linear Regression
+Lasso Regression
+Ridge Regression
+RandomForest
+XGBoost
+
+
+Guide on all Regressions
+
+https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+
+Guide on Tree based modeling
+https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/
+
+
+Guide to boosting Algorithms
+https://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/
+
+
+For Good Regression,
+Data Pre-requisites are here
+
+https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/
+----------------------------
+
+Linear regression 
+
+		It is the simplest and most widely used statistical technique for predictive modeling. 
+		
+		
+		
+		
+		
+		
+--------------------------------------------------------
+RandomForest 
+	
+		Its is a tree based bootstrapping algorithm
+		
+--------------------------------------------------------
+
+XGBoost 
+
+
+
+		It  is a fast and efficient algorithm and has been used to by the winners of many data science competitions
+
+	
+----------------------------

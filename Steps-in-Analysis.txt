@@ -48,7 +48,15 @@ Steps in Analysing Data
 		
 8. 	Corelation
 				
-			
+		Finding relation-ship between each group of variables
+
+-----------------------------------------
+
+
+9. Modelling
+
+		
+		
 	
 	
 	
